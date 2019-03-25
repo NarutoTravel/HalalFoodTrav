@@ -2,26 +2,83 @@ body {
 margin: 0;
 padding: 0;
 border: 0;
+background-color: #f7af6c;
+animation: bg-color 10s infinite;
 }
 
-.header {
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), url(https://images.pexels.com/photos/326278/pexels-photo-326278.jpeg?cs=srgb&dl=appetizer-breakfast-cuisine-326278.jpg&fm=jpg);
-  text-align: center;
-  background-size: 100% 700px;
-  background-color: rgba(0,255,0,0.5);
-  padding: 190px;
+@keyframes bg-color {
+  0% { background-color: #ed583b; }
+  20% { background-color: #ed725a; }
+  40% { background-color: #ffeead; }
+  60% { background-color: #f9dd9a; }
+  80% { background-color: #C5E7D7; }
+  100% { background-color: #88d8b0; }
 }
 
-h1{
-  font-size: 100px;
-  font-family: luminari, cursive;
-  text-shadow: 6px 4px 7px #1F1600;;
-  color: #aab255;
-  letter-spacing: 3px;
-  animation: jump 1.5s ease 0s infinite normal ;
+.border{
+	padding: 5px;
+	background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #88d8b0 34%);
+	background-size: 400% 400%;
+	height: 450px;
+	background-position: 25% 50%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 5s ease infinite;
+}
+.inner-cutout{
+	padding: 40px 0;
+	display: block;
+	background-color:#ff6f69;/*#ff6f69*/
+	margin: 2%;
+	height: 400px;
+	background: radial-gradient(#ff6f69, #ff8b87);
+	background-size: 300%;
+	background-position:50% 50%;
+
+}
+.knockout {
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size:50pt;
+	color: blue;
+	color: #fff;
+	background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #88d8b0 34%);
+	background-size: 400%;
+	 -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.knockout{
+		animation: Gradient 5s ease infinite;
+		-webkit-animation: Gradient 15s ease infinite;
+		-moz-animation: Gradient 5s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 30% 50%
+	}
+	50% {
+		background-position: 25% 50%
+	}
+	100% {
+		background-position: 30% 50%
+	}
+}
+.b{
+  padding-top: 20px;
+  font-size: 20pt;
+}
+.again{
+  padding-top: 40px;
+	background-color:#ff6f69;
+	background: radial-gradient(#ff6f69, #ff8b87);
+}
+.main{
+	width: 65%;
+	height: 500px;
+	margin-left: 33%;
+	margin-right: 2%;
+	margin-top: 10%;
 }
 
 @keyframes jump {
@@ -58,7 +115,7 @@ h1{
 }
 
 .navigation {
-  background-color: #491515;
+  background-color: #ff6f69;
 }
 
 ul {
@@ -76,22 +133,111 @@ li a{
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 30px;
+  padding: 14px 40px;
   text-decoration: none;
   font-size: 30px;
   font-family: cursive;
 }
 
 li a:hover {
-  background-color: #aab255;
+  background-color: #C5E7D7;
+}
+
+.bord{
+	padding: 5px;
+	background: linear-gradient(110deg, #4ca578 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #f7cf9b 34%, #d17d29 34%);
+	background-size: 400% 400%;
+	height: 700px;
+	background-position: 25% 50%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 5s ease infinite;
+}
+.inn{
+	padding: 40px 0;
+	display: block;
+	background-color:#ffe493;/*#ff6f69*/
+	margin: 4%;
+	padding-bottom: 40px;
+	height: 600px;
+	background-image: url(https://images.pexels.com/photos/1011337/pexels-photo-1011337.jpeg?cs=srgb&dl=assorted-assortment-background-1011337.jpg&fm=jpg);
+	background-size: 100%;
+	background-position:50% 50%;
+}
+.oout {
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+  padding-top: 0;
+  padding-left: 1%;
+	font-size:50pt;
+	color: blue;
+	color: #ffe493;
+	background: linear-gradient(110deg, #4ca578 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #f7cf9b 34%, #d17d29 34%);
+	background-size: 500%;
+	-webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.oout{
+		animation: Gradient 5s ease infinite;
+		-webkit-animation: Gradient 15s ease infinite;
+		-moz-animation: Gradient 5s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 30% 50%
+	}
+	50% {
+		background-position: 25% 50%
+	}
+	100% {
+		background-position: 30% 50%
+	}
+}
+.sub{
+  padding-top: 10px;
+  font-size: 20pt;
+}
+.bg{
+	width: 100%;
+	height: 700px;
+}
+
+.bg p {
+  font-size: 25px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  font-family: cursive;
 }
 
 .bodyup {
   background-color: #f7af6c;
-  text-align: center;
-  font-size: 20px;
-  padding: 20px;
-  font-family: cursive;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.bodyup h1 {
+  color: #fff;
+  font-family: monospace;
+  font-size: 50px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #ff6f69; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+  typing 3.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ff6f69 }
 }
 
 * {
@@ -102,18 +248,14 @@ li a:hover {
   float: left;
   width: 33.33%;
   padding: 10px;
-  height: 1400px;
+  height: 1300px;
+  margin-bottom: 40px;
 }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
-
-.column1 {
-  background-color: #aab255;
-  box-shadow: 0px 10px 20px -5px;
 }
 
 #japan, #italy, #germany {
@@ -149,17 +291,11 @@ li a:hover {
   position: relative;
   border-radius: 8px;
   display: block;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 90%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: 95%;
   height: 300px;
-  background-size: 400px 300px;
-  box-shadow: -1px 4px 54px 1px rgba(255,255,115,1);
-}
-
-.column2{
-  background-color: #6d1002;
-  box-shadow: 0px 10px 20px -5px;
+  background-size: 410px 300px;
 }
 
 #italy{
@@ -175,11 +311,6 @@ li a:hover {
   background-image: url(https://images.pexels.com/photos/1927262/pexels-photo-1927262.jpeg?cs=srgb&dl=berries-berry-blurred-background-1927262.jpg&fm=jpg);
 }
 
-.column3{
-  background-color: #aab255;
-  box-shadow: 0px 10px 20px -5px;
-}
-
 #germany{
   background-image: url(https://images.pexels.com/photos/8572/food-chicken-meat-outdoors.jpg?cs=srgb&dl=barbecue-bbq-chicken-8572.jpg&fm=jpg);
 }
@@ -192,23 +323,48 @@ li a:hover {
 #US{
   background-image: url(https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?cs=srgb&dl=bread-color-cooking-1565982.jpg&fm=jpg);
 }
-hr.style-four {
-    overflow: visible; /* For IE */
-    padding: 10px;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
+
+.abowt {
+  font: 400 1em/1.5 "Neuton";
+  background: #e59854;
+  color: rgba(255,255,255,.25);
+  text-align: center;
+  margin: 0;}
+
+#one {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 5px double rgba(139, 73, 8,.25);
+	border-width: 5px 0;
+	padding: 1.5em 0em;
+	position: relative;
+	top: 18%;
+	left: 50%;
+	width: 100%;
+	margin: 0 0 0 -85em;
 }
-hr.style-four:after {
-    content: "About Us";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: #f7cf9b;
+  span {
+  	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+	  background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+  }
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
 }
+
 .footer {
   background-color: #f7cf9b;
   text-align: left;
