@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title> CHina </title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+<style>
+body {
+    color: #B5575B;
+    background-image:url("white.jpg");
+    background-position: center;
+    font-family: "Courier New";
+    margin: 0px;
+  }
+  .header {
+
+    height:200px;
+    padding:80px;
+    background-image: url("china.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .navigation{
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+  }
+  .navigation a{
+    float: right;
+    display:block;
+    color: white;
+    text-align:center;
+    padding: 20px 120px;
+    text-decoration: none;
+  }
+  .navigation a:hover{
+    background-color:#FF7F50;
+    color: black;
+  }
+  .footer {
+    background-color:#D1E8E2;
+    font-size: 50%;
+    padding: 7px;
+    text-align: right;
+  }
+
+.pics{
+  display:inline;
+  float:center;
+  width:30%;
+  margin: 20px 0px 20px 150px;
+  padding:25px;
+}
+
+/***Content*****/
+.content{
+  text-align:center;
+  width: 75%;
+  height: 100%;
+  display: none;
+  position: center;
+  display: block;
+  padding: 5px 5px 5px 50px;
+}
+/***End Content*****/
+
+
+
+.button {
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+  </style>
+
+
+   <div class="header">
+
+
+       </div>
+       <div class="navigation">
+         <a href="file:///C:/Users/User/Desktop/html%20coding/nada%20project/about%20us.html">About Us</a>
+         <a href="file:///C:/Users/User/Desktop/html%20coding/nada%20project/Activity.html">Activity</a>
+         <a href="file:///C:/Users/User/Desktop/html%20coding/nada%20project/destination_v2.html">Destination</a>
+         <a href="file:///C:/Users/User/Desktop/html%20coding/nada%20project/HOME.html">Home</a>
+       </div>
+
+   <br>
+
+   <div class="pics">
+    <img src="Bigplate chicken.jpg" alt="Bigplate chicken" width="1000" height="550" >
+    <!--in case need
+    <img src="arc_de_triomphe.jpeg" alt="Arc De Triomphe" width="500" height="500" >
+    --->
+   </div>
+
+   <!---Name--->
+    <p></p>
+    <h2 style="text-align:center; background-color: #FF2626; color:white; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"="">The top 10 food of THAILAND</h2>
+    <!--- Information --->
+     <div class="content">
+
+
+  <img id="myImg" src="Roasted Lamb.jpg" alt="Roasted Lamb" width="500" height="350">
+  <h3 style="text-align:center; background-color: #FF4C4C; color:white; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"="">1 Tom Yum Goong (Spicy Shrimp Soup)</h3>
+  <p></p><p style="text-align:justify; background-color: #eff2f7; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"=""><b>The quintessential Thai aroma! A bold, refreshing blend of fragrant lemongrass, chilli, galangal, lime leaves, shallots, lime juice and fish sauce shapes this classic soup, giving it its legendary herbal kick. Succulent fresh prawns and straw mushrooms lend it body. A versatile dish that can fit within virtually any meal, the distinctive smell reminds you of exotic perfume, while it's invigorating sour-spicy-hot taste just screams 'Thailand'!</b></p><b>
+
+  <img id="myImg" src="Hands pilaf.jpg" alt="Hands pilaf"  width="500" height="350">
+  <h3 style="text-align:center; background-color: #FF4C4C; color:white; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"="">2 Som Tum (Spicy Green Papaya Salad)</h3>
+  <p></p><p style="text-align:justify; background-color: #eff2f7; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"=""><b>Hailing from the Northeast state of Isaan, this outlandish dish is both great divider - some can't get enough of its bite, some can't handle it - and greatly distinctive. Garlic, chilies, green beans, cherry tomatoes and shredded raw papaya get dramatically pulverized in a pestle and mortar, so releasing a rounded sweet-sour-spicy flavour that's not easily forgotten. Regional variations throw peanuts, dry shrimp or salted crab into the mix, the latter having a gut-cleansing talent that catches many newcomers by surprise!</b></p><b>
+
+  <img id="myImg" src="Mongolian Boiled Lamb.jpg" alt="Mongolian Boiled Lamb "  width="500" height="350">
+  <h3 style="text-align:center; background-color: #FF4C4C; color:white; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"="">3 Pad Thai (Thai style Fried Noodles)</h3>
+  <p></p><p style="text-align:justify; background-color: #eff2f7; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"=""><b>From Cape Town to Khao San Road, the default international Thai dish! Dropped in a searing hot wok, fistfuls of small, thin or wide noodles (you choose) do a steamy minute-long dance alongside crunchy beansprouts, onion and egg, before disembarking for the nearest plate. A truly interactive eating experience, half its fun (and flavour) lies in then using a quartet of accompanying condiments - fish sauce, sugar, chilli powder and finely ground peanuts - to wake it from its slumbers.</b></p><b>
+
+  <img id="myImg" src="mutton kebab.jpg" alt="mutton kebab.jpg"  width="500" height="350">
+  <h3 style="text-align:center; background-color: #FF4C4C; color:white; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"="">4 Pad Krapow Kai Saap (Fried Basil and Chicken)</h3>
+  <p></p><p style="text-align:justify; background-color: #eff2f7; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"=""><b>An incredibly popular ‘one plate’ dish for lunch or dinner, fried basil and chicken is certainly one of the most popular Thai dishes. It is made in a piping hot wok with lots of holy basil leaves, large fresh chilli, pork, green beans, soy sauce and a little sugar. The minced, fatty pork is oily and mixes with the steamed white rice for a lovely fulfilling meal. It is often topped with a fried egg (kai dao) you will most likely be asked if you would like an egg with it. Be aware that most Thai people ask for lots of chilli in this dish so if you are not a fan of tingling lips, ask for you pad krapow ‘a little spicy’</b></p><b>
+
+  <img id="myImg" src="Roasted Duck.jpg" alt="Roasted Duck"  width="500" height="350">
+  <h3 style="text-align:center; background-color: #FF4C4C; color:white; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"="">5 Gaeng Keow Wan Kai (Green Chicken Curry)</h3>
+  <p></p><p style="text-align:justify; background-color: #eff2f7; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"=""><b>Morsels of fresh chicken. Cherry-sized eggplants. Tender bamboo shoots. Sprigs of Coriander. Generous handfuls of sweet basil. These humble elements form the body of this seminal curry. But how does it get so gloriously green you ask? Oh, that'll be the spoons of green curry paste that's stirred furiously into hot creamy coconut milk. Served alongside a bowl of fragrant Thai rice, Gaeng Keow Kan Gai is the extreme opposite.</b></p><b>
+
+  <img id="myImg" src=" Veal goulash cakes.jpg" alt=" Veal goulash cakes"  width="500" height="350">
+  <h3 style="text-align:center; background-color: #FF4C4C; color:white; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"="">6 Lab Nua (Spicy Beef Salad)</h3>
+  <p></p><p style="text-align:justify; background-color: #eff2f7; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"=""><b>If there was such a thing as a 'Salad Hall of Fame', Thailand's zesty own breed, or 'Lab' as they are known here, would surely take pride of place. Unconvinced? Experience the fresh, fiery thrill of Lab  nua - with its sprightly mix of onion, coriander, spearmint, lime, dried chili and tender strips of beef - and you won't be. It perfectly embodies the invigorating in-the-mouth-thrill of all Thai salads, the yummy-ness of Lab</b></p><b>
+
+  <img id="myImg" src="dumplings.jpg" alt="dumplings"  width="500" height="350">
+  <h3 style="text-align:center; background-color: #FF4C4C; color:white; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"="">7 Kai Med Ma Muang (Chicken with Cashew Nuts)</h3>
+  <p></p><p style="text-align:justify; background-color: #eff2f7; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"=""><b>Pardon the pun, but tourists go nuts for this stir fried dish. Perhaps it's the wildly contrasting textures of a dish that saut's chicken alongside roasted cashews, sweet soy sauce, onions, chilies, pepper, carrot and mushrooms. Perhaps it's the sweetening dash of honey that appeals. Do you really care? The important thing is that this dish works: it's simple but scrumptious, a little bit tame and yet still totally Thai.</b></p><b>
+
+  <img id="myImg" src="Dapan Chicken and fried Nang.jpg" alt="Dapan Chicken and fried Nang"  width="500" height="350">
+  <h3 style="text-align:center; background-color: #FF4C4C; color:white; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"="">8 Khao Pad (Fried Rice)</h3>
+  <p></p><p style="text-align:justify; background-color: #eff2f7; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"=""><b>Fried rice, egg, onion, a few herbs - nothing more, nothing less. A popular lunch dish served typically with a wedge of lime and slices of cucumber, the secret of this unpretentious dish lies in its simplicity. The concept is this: you're the one devouring it, so you dress it. To do so, Thais use everything from prawns, crab or chicken to basil, chili and left-over vegetables, in the process turning an unremarkable pauper into a gastronomic prince!</b></p><b>
+
+  <img id="myImg" src=" mutton hot pot.jpg" alt=" mutton hot pot" width="500" height="350">
+  <h3 style="text-align:center; background-color: #FF4C4C; color:white; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"="">9 Tom Kha Kai (Chicken in Coconut Soup)</h3>
+  <p></p><p style="text-align:justify; background-color: #eff2f7; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"=""><b>A mild, tamer twist on Tom Yum, this iconic soup infuses fiery chilies, thinly sliced young galangal, crushed shallots, stalks of lemongrass and tender strips of chicken. However unlike its more watery cousin, lashings of coconut milk soften its spicy blow. Topped off with fresh lime leaves, it's a sweet-smelling concoction, both creamy and compelling.</b></p><b>
+
+  <img id="myImg" src="shashliks.jpg" alt="shashliks" width="500" height="350">
+  <h3 style="text-align:center; background-color: #FF4C4C; color:white; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"="">10 Gaeng Daeng (Red Curry)</h3>
+  <p></p><p style="text-align:justify; background-color: #eff2f7; font-family: " courier="" new",="" courier,="" monospace;="" padding:="" 0px;"=""><b>Made with morsels of meat, red curry paste, smooth coconut milk and topped off with a sprinkling of finely sliced kaffir lime leaves, this rich, aromatic curry always gets those taste buds tingling. At its best when the meat is stunningly tender, it could be likened to a beautiful woman: it's mild, sweet and delicately fragrant. And like all true love affairs, absence makes the heart grow fonder.1</b></p><b>
+
+
+
+<!---Footer-->
+<div class="footer">
+
+  <img src="facebook.png" alt="facebook" title="Facebook" width="50" height="50">
+    <img src="twitter.png" alt="twiter" title="Twiter" width="50" height="50">
+    <img src="pinterest.png" alt="pinterest" title="Pinterest" width="50" height="50">
+    <img src="gp.png" alt="google plus" title="Google plus" width="50" height="50">
+	  <img src="instagram.png" alt="instagram" title="instagram" width="50" height="50">
+</div>

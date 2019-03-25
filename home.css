@@ -1,0 +1,216 @@
+body {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+.header {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(https://images.pexels.com/photos/326278/pexels-photo-326278.jpeg?cs=srgb&dl=appetizer-breakfast-cuisine-326278.jpg&fm=jpg);
+  text-align: center;
+  background-size: 100% 700px;
+  background-color: rgba(0,255,0,0.5);
+  padding: 190px;
+}
+
+h1{
+  font-size: 100px;
+  font-family: luminari, cursive;
+  text-shadow: 6px 4px 7px #1F1600;;
+  color: #aab255;
+  letter-spacing: 3px;
+  animation: jump 1.5s ease 0s infinite normal ;
+}
+
+@keyframes jump {
+  0%{
+	transform: translateY(0);
+  }
+  20%{
+	transform: translateY(0);
+  }
+  40%{
+	transform: translateY(-30px);
+  }
+  50%{
+	transform: translateY(0);
+  }
+  60%{
+	transform: translateY(-15px);
+  }
+  80%{
+	transform: translateY(0);
+  }
+  100%{
+	transform: translateY(0);
+  }
+}
+
+.subtitle {
+  background-color: #f7af6c;
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+  font-family: cursive;
+  text-shadow:  3px 3px 8px #aab255;
+}
+
+.navigation {
+  background-color: #491515;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20%;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+li a:hover {
+  background-color: #aab255;
+}
+
+.bodyup {
+  background-color: #f7af6c;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  font-family: cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column1, .column2, .column3 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 1400px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column1 {
+  background-color: #aab255;
+  box-shadow: 0px 10px 20px -5px;
+}
+
+#japan, #italy, #germany {
+  margin-top: 40px;
+}
+
+#japan{
+  background-image: url(https://images.pexels.com/photos/359993/pexels-photo-359993.jpeg?cs=srgb&dl=blur-close-up-delicious-359993.jpg&fm=jpg);
+}
+.jap, .ch , .st , .th , .it, .mx , .sp, .rs , .gr, .fr , .yk, .ys{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 2px #fff1a8, 0 0 25px black, 0 0 5px #fff1a8;
+}
+
+#china{
+  background-image: url(https://images.pexels.com/photos/343871/pexels-photo-343871.jpeg?cs=srgb&dl=appetizer-blur-bowl-343871.jpg&fm=jpg);
+}
+
+#SK{
+  background-image: url(https://images.pexels.com/photos/262897/pexels-photo-262897.jpeg?cs=srgb&dl=beef-bowl-cooking-262897.jpg&fm=jpg);
+}
+
+#thailand{
+  background-image: url(https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?cs=srgb&dl=asian-food-bowl-cuisine-699953.jpg&fm=jpg);
+}
+
+#china, #japan, #SK, #thailand, #italy, #mexico, #spain, #russia, #germany, #france, #UK, #US {
+  position: relative;
+  border-radius: 8px;
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  height: 300px;
+  background-size: 400px 300px;
+  box-shadow: -1px 4px 54px 1px rgba(255,255,115,1);
+}
+
+.column2{
+  background-color: #6d1002;
+  box-shadow: 0px 10px 20px -5px;
+}
+
+#italy{
+  background-image: url(https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=cheese-circle-close-up-803290.jpg&fm=jpg);
+}
+#mexico{
+  background-image: url(https://images.pexels.com/photos/58722/pexels-photo-58722.jpeg?cs=srgb&dl=cheese-dish-food-58722.jpg&fm=jpg);
+}
+#spain{
+  background-image: url(https://images.pexels.com/photos/1268549/pexels-photo-1268549.jpeg?cs=srgb&dl=beef-cooked-cuisine-1268549.jpg&fm=jpg);
+}
+#russia{
+  background-image: url(https://images.pexels.com/photos/1927262/pexels-photo-1927262.jpeg?cs=srgb&dl=berries-berry-blurred-background-1927262.jpg&fm=jpg);
+}
+
+.column3{
+  background-color: #aab255;
+  box-shadow: 0px 10px 20px -5px;
+}
+
+#germany{
+  background-image: url(https://images.pexels.com/photos/8572/food-chicken-meat-outdoors.jpg?cs=srgb&dl=barbecue-bbq-chicken-8572.jpg&fm=jpg);
+}
+#france{
+  background-image: url(https://images.pexels.com/photos/62097/pexels-photo-62097.jpeg?cs=srgb&dl=bread-chip-close-up-62097.jpg&fm=jpg);
+}
+#UK{
+  background-image: url(https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?cs=srgb&dl=blur-breakfast-close-up-376464.jpg&fm=jpg);
+}
+#US{
+  background-image: url(https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?cs=srgb&dl=bread-color-cooking-1565982.jpg&fm=jpg);
+}
+hr.style-four {
+    overflow: visible; /* For IE */
+    padding: 10px;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-four:after {
+    content: "About Us";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #f7cf9b;
+}
+.footer {
+  background-color: #f7cf9b;
+  text-align: left;
+  padding: 50px;
+}
